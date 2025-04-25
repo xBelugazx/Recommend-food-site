@@ -1,2 +1,42 @@
-# Recommend-food-site
-This site randomly recommends food.
+# 음식 룰렛 (Food Roulette)
+
+점심이나 저녁 메뉴를 고르기 힘들 때 사용하는 간단한 웹 애플리케이션입니다.
+여러 음식을 입력하면 그 중에서 하나를 무작위로 추천해줍니다.
+
+## 주요 기능
+
+- 여러 음식을 쉼표(,)로 구분하여 입력
+- 애니메이션과 함께 재미있게 음식 추천
+- 심플하고 직관적인 인터페이스
+
+## 사용 방법
+
+1. 프로그램 실행하기
+   - Visual Studio Code에서 Live Server 확장프로그램 설치
+   - src 폴더의 index.html 파일을 열고 'Go Live' 버튼 클릭
+   - 또는 src/index.html 파일을 브라우저에서 직접 열기
+
+2. 음식 입력하기
+   - 입력창에 먹고 싶은 음식들을 쉼표(,)로 구분해서 입력
+   - 예시: "돈까스, 참치비빔밥, 삼겹살"
+
+3. 추천받기
+   - '추천받기' 버튼을 클릭하면 입력한 음식 중 하나를 무작위로 추천
+
+## 프로젝트 구조
+
+```
+food-roulette/
+├── src/
+│   ├── index.html      # 메인 HTML 파일
+│   ├── css/
+│   │   └── styles.css  # 스타일시트
+│   └── js/
+│       └── app.js      # 자바스크립트 로직
+```
+
+## 기술 스택
+
+- HTML5
+- CSS3
+- JavaScript (바닐라)
