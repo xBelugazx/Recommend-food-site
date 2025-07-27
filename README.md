@@ -2,7 +2,8 @@
 
 음식 메뉴를 고르기 힘들 때 사용하는 간단한 웹 사이트입니다.
 여러 음식을 입력하면 그 중에서 하나를 무작위로 추천해줍니다. ((ex) 마라샹궈, 짜장면, 된장찌개 ...)
-https://choosefoodtoday.netlify.app/
+
+사이트: https://choosefoodtoday.netlify.app/
 
 ## 주요 기능
 
